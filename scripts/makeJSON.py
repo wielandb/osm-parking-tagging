@@ -71,7 +71,7 @@ for line in lines:
     parkingTXTArea[sign_identifier] = tmpParkingTxt
     for key, value in wayTags.items():
         tmpParkingTxt += key + "=" + value + "LINEBREAK"
-    parkingTXTArea[sign_identifier] = tmpParkingTxt
+    parkingTXTWay[sign_identifier] = tmpParkingTxt
 
 
 # save the parkingJSON data to export/json/parking_new.json
