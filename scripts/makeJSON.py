@@ -102,6 +102,8 @@ linesToSort = []
 linesToKeepBefore = []
 linesToKeepAfter = []
 for line in lines:
+    # replace \ with / in the line
+    line = line.replace("\\", "/")
     if line.startswith("| !"):
         linesToSort.append(line)
     else:
