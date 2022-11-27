@@ -10,6 +10,16 @@
     }
   },
   {
+    "sign_identifier": "283_1042-33",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\283_1042-33.png",
+    "area_tags": {
+      "restriction": "no_stopping @ (OPENING_HOURS)"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction": "no_stopping @ (OPENING_HOURS)"
+    }
+  },
+  {
     "sign_identifier": "286",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\286.png",
     "area_tags": {

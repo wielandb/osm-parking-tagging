@@ -1,5 +1,6 @@
 {
   "283": "restriction=no_stoppingLINEBREAK",
+  "283_1042-33": "restriction=no_stopping @ (OPENING_HOURS)LINEBREAK",
   "286": "restriction=no_parkingLINEBREAK",
   "286_1010-51": "restriction:hgv=no_parkingLINEBREAK",
   "286_1010-62": "restriction:motorcycle=no_parkingLINEBREAK",
