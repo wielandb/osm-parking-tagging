@@ -16,7 +16,7 @@ parkingTXTWay = {}
 parkingTXTArea = {}
 for line in lines:
     # skip the first and second line
-    if "-------" in line or "                                                            " in line:
+    if "-------" in line or "                                                " in line:
         continue
     if "|" not in line:
         continue
@@ -84,3 +84,39 @@ with open(os.path.join('..', 'export', 'txt', 'parking_new_area.json'), 'w') as 
     json.dump(parkingTXTArea, f, indent=2)
 with open(os.path.join('..', 'export', 'txt', 'parking_new_way.json'), 'w') as f:
     json.dump(parkingTXTWay, f, indent=2)
+
+# Read the file ..\parking_new.md
+# sort all lines that start with "| !" alphabetically
+# leave all the other lines untouched
+# save the sorted lines to ..\parking_new_sorted.md
+with open(os.path.join('..', 'parking_new.md'), 'r') as f:
+    data = f.read()
+# Split the file into lines
+lines = data.splitlines()
+# go through all lines
+# if the line starts with "| !", add it to the list of lines to sort
+# else, add it to the list of lines to keep
+# have two lists for the lines to keep, one list for the lines to keep before the first line to sort, one list for the lines to keep after the last line to sort
+# so we can keep the header and the footer of the file
+linesToSort = []
+linesToKeepBefore = []
+linesToKeepAfter = []
+for line in lines:
+    if line.startswith("| !"):
+        linesToSort.append(line)
+    else:
+        if len(linesToSort) == 0:
+            linesToKeepBefore.append(line)
+        else:
+            linesToKeepAfter.append(line)
+# write the lines to the file
+# first all the lines to keep before the first line to sort
+# then all the lines to sort
+# then all the lines to keep after the last line to sort
+with open(os.path.join('..', 'parking_new.md'), 'w') as f:
+    for line in linesToKeepBefore:
+        f.write(line + "\n")
+    for line in sorted(linesToSort):
+        f.write(line + "\n")
+    for line in linesToKeepAfter:
+        f.write(line + "\n")
