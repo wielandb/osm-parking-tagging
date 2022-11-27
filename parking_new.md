@@ -1,7 +1,9 @@
 |                                                              | Tags für eine Fläche                                         | Tags für einen Way                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![286_1010-51](img/286_1010-51.png)                          | `restriction:hgv=no_parking`                                 | `parking:right:restriction:hgv=no_parking`                   |
-| ![286_1010-62](img/286_1010-62.png)                          | `restriction:motorcycle=no_parking`                          | `parking:right:restriction:motorcycle=no_parking`            |
+| ![283](img\283.png)                                          | `restriction=no_stopping`                                    | `parking:SEITE:restriction=no_stopping`                      |
+| ![286](img\286.png)                                          | `restriction=no_parking`                                     | `parking:SEITE:restriction=no_stopping`                      |
+| ![286_1010-51](img/286_1010-51.png)                          | `restriction:hgv=no_parking`                                 | `parking:SEITE:restriction:hgv=no_parking`                   |
+| ![286_1010-62](img/286_1010-62.png)                          | `restriction:motorcycle=no_parking`                          | `parking:SEITE:restriction:motorcycle=no_parking`            |
 | ![286_1020-32](img/286_1020-32.png)                          | `restriction=no_parking`<br />`restriction:conditional=free @ residents`<br />`zone=AUSWEIS` | `parking:SEITE:restriction=no_parking`<br />`parking:SEITE:restriction:conditional=free @ residents`<br />`parking:SEITE:zone=AUSWEIS` |
 | ![286_1042-33](img/286_1042-33.png)                          | `restriction=no_parking @ (OPENING_HOURS)`                   | `parking:SEITE:restriction=no_parking @ (OPENING_HOURS)`     |
 | ![286_1042-33_1020-32](img/286_1042-33_1020-32.png)          | `restriction:conditional=no_parking @ (OPENING_HOURS); free @ residents`<br />`zone=AUSWEIS` | `parking:SEITE:restriction:conditional=no_parking @ (OPENING_HOURS); free @ residents`<br />`parking:SEITE:zone=AUSWEIS` |

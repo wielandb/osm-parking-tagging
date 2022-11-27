@@ -1,12 +1,32 @@
 [
   {
+    "sign_identifier": "283",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\283.png",
+    "area_tags": {
+      "restriction": "no_stopping"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction": "no_stopping"
+    }
+  },
+  {
+    "sign_identifier": "286",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\286.png",
+    "area_tags": {
+      "restriction": "no_parking"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction": "no_stopping"
+    }
+  },
+  {
     "sign_identifier": "286_1010-51",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1010-51.png",
     "area_tags": {
       "restriction:hgv": "no_parking"
     },
     "way_tags": {
-      "parking:right:restriction:hgv": "no_parking"
+      "parking:SEITE:restriction:hgv": "no_parking"
     }
   },
   {
@@ -16,7 +36,7 @@
       "restriction:motorcycle": "no_parking"
     },
     "way_tags": {
-      "parking:right:restriction:motorcycle": "no_parking"
+      "parking:SEITE:restriction:motorcycle": "no_parking"
     }
   },
   {
@@ -65,6 +85,18 @@
     "way_tags": {
       "parking:SEITE:access": "private",
       "parking:SEITE:zone": "AUSWEIS"
+    }
+  },
+  {
+    "sign_identifier": "314.1_1051-33",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\314.1_1051-33.png",
+    "area_tags": {
+      "fee": "yes",
+      "authentication:ticket": "yes"
+    },
+    "way_tags": {
+      "parking:SEITE:fee": "yes",
+      "parking:SEITE:authentication:ticket": "yes"
     }
   },
   {
@@ -323,18 +355,6 @@
     "way_tags": {
       "parking:SEITE:fee": "yes",
       "parking:SEITE:zone": "AUSWEIS",
-      "parking:SEITE:authentication:ticket": "yes"
-    }
-  },
-  {
-    "sign_identifier": "314.1_1051-33",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\314.1_1051-33.png",
-    "area_tags": {
-      "fee": "yes",
-      "authentication:ticket": "yes"
-    },
-    "way_tags": {
-      "parking:SEITE:fee": "yes",
       "parking:SEITE:authentication:ticket": "yes"
     }
   }
