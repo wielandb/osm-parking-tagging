@@ -69,6 +69,7 @@ for line in lines:
     for key, value in areaTags.items():
         tmpParkingTxt += key + "=" + value + "LINEBREAK"
     parkingTXTArea[sign_identifier] = tmpParkingTxt
+    tmpParkingTxt = ""
     for key, value in wayTags.items():
         tmpParkingTxt += key + "=" + value + "LINEBREAK"
     parkingTXTWay[sign_identifier] = tmpParkingTxt
