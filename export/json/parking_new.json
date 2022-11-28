@@ -165,7 +165,7 @@
   },
   {
     "sign_identifier": "314_1010-58_1040-32",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\314_1010-58_1040-32.png",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-58_1040-32.png",
     "area_tags": {
       "access": "no",
       "motorcar": "designated",
