@@ -40,6 +40,16 @@
     }
   },
   {
+    "sign_identifier": "286_1010-51_1042-33",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/C:\\Users\\wiela\\Documents\\GitHub\\osm-parking-tagging\\img\\286_1010-51_1042-33.png",
+    "area_tags": {
+      "restriction:hgv:conditional": "no_parking @ (OPENINGHOURS)"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction:hgv:conditional": "no_parking @ (OPENINGHOURS)"
+    }
+  },
+  {
     "sign_identifier": "286_1010-62",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1010-62.png",
     "area_tags": {
