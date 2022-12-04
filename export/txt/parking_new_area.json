@@ -11,6 +11,7 @@
   "286_1042-33_1020-32": "restriction:conditional=no_parking @ (OPENINGHOURS); free @ residentsLINEBREAKzone=AUSWEISLINEBREAK",
   "314.1_1044-30": "access=privateLINEBREAKzone=AUSWEISLINEBREAK",
   "314.1_1051-33": "fee=yesLINEBREAKauthentication:ticket=yesLINEBREAK",
+  "314": "access=yesLINEBREAKfee=noLINEBREAK",
   "314_1010-51": "access=noLINEBREAKhgv=designatedLINEBREAK",
   "314_1010-57": "access=noLINEBREAKbus=designatedLINEBREAKtourist_bus=designatedLINEBREAK",
   "314_1010-57_1042-33": "access:conditional=no @ (OPENINGHOURS)LINEBREAKbus:conditional=designated @ (OPENINGHOURS)LINEBREAKtourist_bus:conditional=designated @ (OPENINGHOURS)LINEBREAKaccess=yesLINEBREAK",
