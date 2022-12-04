@@ -5,6 +5,7 @@
   "286_1010-51": "parking:SEITE:restriction:hgv=no_parkingLINEBREAK",
   "286_1010-51_1042-33": "parking:SEITE:restriction:hgv:conditional=no_parking @ (OPENINGHOURS)LINEBREAK",
   "286_1010-62": "parking:SEITE:restriction:motorcycle=no_parkingLINEBREAK",
+  "286_1010-62_1042-33": "parking:SEITE:restriction:motorcycle:conditional=no_parking @ (OPENINGHOURS)LINEBREAK",
   "286_1020-32": "parking:SEITE:restriction=no_parkingLINEBREAKparking:SEITE:restriction:conditional=free @ residentsLINEBREAKparking:SEITE:zone=AUSWEISLINEBREAK",
   "286_1042-33": "parking:SEITE:restriction=no_parking @ (OPENINGHOURS)LINEBREAK",
   "286_1042-33_1020-32": "parking:SEITE:restriction:conditional=no_parking @ (OPENINGHOURS); free @ residentsLINEBREAKparking:SEITE:zone=AUSWEISLINEBREAK",
