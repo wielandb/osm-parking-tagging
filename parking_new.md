@@ -2,7 +2,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![283](img/283.png)                                          | `restriction=no_stopping`                                    | `parking:SEITE:restriction=no_stopping`                      |
 | ![283_1042-33](img/283_1042-33.png)                          | `restriction:conditional=no_stopping @ (OPENINGHOURS)`                   | `parking:SEITE:restriction:conditional=no_stopping @ (OPENINGHOURS)`     |
-| ![286](img/286.png)                                          | `restriction=no_parking`                                     | `parking:SEITE:restriction=no_stopping`                      |
+| ![286](img/286.png)                                          | `restriction=no_parking`                                     | `parking:SEITE:restriction=no_parking`                       |
 | ![286_1010-51](img/286_1010-51.png)                          | `restriction:hgv=no_parking`                                 | `parking:SEITE:restriction:hgv=no_parking`                   |
 | ![286_1010-51_1042-33](img/286_1010-51_1042-33.png)          | `restriction:hgv:conditional=no_parking @ (OPENINGHOURS)`    | `parking:SEITE:restriction:hgv:conditional=no_parking @ (OPENINGHOURS)` |
 | ![286_1010-62](img/286_1010-62.png)                          | `restriction:motorcycle=no_parking`                          | `parking:SEITE:restriction:motorcycle=no_parking`            |
