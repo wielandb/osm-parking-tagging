@@ -322,14 +322,12 @@
     "area_tags": {
       "access": "yes",
       "access:conditional": "no @ (OPENINGHOURS)",
-      "disabled:conditional": "designated @ (OPENINGHOURS)",
-      "fee": "no"
+      "disabled:conditional": "designated @ (OPENINGHOURS)"
     },
     "way_tags": {
       "parking:SEITE:access": "yes",
       "parking:SEITE:access:conditional": "no @ (OPENINGHOURS)",
-      "parking:SEITE:disabled:conditional": "designated @ (OPENINGHOURS)",
-      "fee": "no"
+      "parking:SEITE:disabled:conditional": "designated @ (OPENINGHOURS)"
     }
   },
   {

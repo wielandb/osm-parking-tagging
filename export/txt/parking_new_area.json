@@ -25,7 +25,7 @@
   "314_1040-32_1042-33_1020-32": "maxstay:conditional=TIME @ (OPENINGHOURS); no @ residentsLINEBREAKauthentication:disc:conditional=yes @ (OPENINGHOURS)LINEBREAKzone=AUSWEISLINEBREAK",
   "314_1042-33": "access=noLINEBREAKaccess:conditional=yes @ (OPENINGHOURS)LINEBREAK",
   "314_1044-10": "access=noLINEBREAKdisabled=designatedLINEBREAK",
-  "314_1044-10_1042-33": "access=yesLINEBREAKaccess:conditional=no @ (OPENINGHOURS)LINEBREAKdisabled:conditional=designated @ (OPENINGHOURS)LINEBREAKfee=noLINEBREAK",
+  "314_1044-10_1042-33": "access=yesLINEBREAKaccess:conditional=no @ (OPENINGHOURS)LINEBREAKdisabled:conditional=designated @ (OPENINGHOURS)LINEBREAK",
   "314_1044-11": "access=noLINEBREAKdisabled=privateLINEBREAKref=AUSWEISLINEBREAK",
   "314_1044-30": "access=privateLINEBREAKzone=AUSWEISLINEBREAK",
   "314_1050-32": "restriction=charging_onlyLINEBREAK",
