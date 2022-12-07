@@ -336,11 +336,13 @@
     "sign_identifier": "314_1044-11",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1044-11.png",
     "area_tags": {
-      "access": "private",
+      "access": "no",
+      "disabled": "private",
       "ref": "AUSWEIS"
     },
     "way_tags": {
-      "parking:SEITE:access": "private",
+      "parking:SEITE:access": "no",
+      "parking:SEITE:disabled": "private",
       "parking:SEITE:ref": "AUSWEIS"
     }
   },
