@@ -244,7 +244,6 @@
       "authentication:disc": "yes"
     },
     "way_tags": {
-      "parking:SEITE:access": "yes",
       "parking:SEITE:fee": "no",
       "parking:SEITE:maxstay": "TIME",
       "parking:SEITE:authentication:disc": "yes"
@@ -274,7 +273,6 @@
       "authentication:disc:conditional": "yes @ (OPENINGHOURS)"
     },
     "way_tags": {
-      "parking:SEITE:access": "yes",
       "parking:SEITE:fee": "no",
       "parking:SEITE:maxstay:conditional": "TIME @ (OPENINGHOURS)",
       "parking:SEITE:authentication:disc:conditional": "yes @ (OPENINGHOURS)"
