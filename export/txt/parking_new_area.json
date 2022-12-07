@@ -23,7 +23,7 @@
   "314_1040-32_1020-32": "maxstay=TIMELINEBREAKmaxstay:conditional=no @ residentsLINEBREAKauthentication:disc=yesLINEBREAKzone=AUSWEISLINEBREAK",
   "314_1040-32_1042-33": "maxstay:conditional=TIME @ (OPENINGHOURS)LINEBREAKauthentication:disc:conditional=yes @ (OPENINGHOURS)LINEBREAK",
   "314_1040-32_1042-33_1020-32": "maxstay:conditional=TIME @ (OPENINGHOURS); no @ residentsLINEBREAKauthentication:disc:conditional=yes @ (OPENINGHOURS)LINEBREAKzone=AUSWEISLINEBREAK",
-  "314_1042-33": "opening_hours=OPENINGHOURSLINEBREAK",
+  "314_1042-33": "access=noLINEBREAKaccess:conditional=yes @ (OPENINGHOURS)LINEBREAK",
   "314_1044-10": "access=noLINEBREAKdisabled=designatedLINEBREAK",
   "314_1044-10_1042-33": "access=yesLINEBREAKaccess:conditional=no @ (OPENINGHOURS)LINEBREAKdisabled:conditional=designated @ (OPENINGHOURS)LINEBREAKfee=noLINEBREAK",
   "314_1044-11": "access=privateLINEBREAKref=AUSWEISLINEBREAK",

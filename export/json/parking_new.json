@@ -296,10 +296,12 @@
     "sign_identifier": "314_1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1042-33.png",
     "area_tags": {
-      "opening_hours": "OPENINGHOURS"
+      "access": "no",
+      "access:conditional": "yes @ (OPENINGHOURS)"
     },
     "way_tags": {
-      "parking:SEITE:opening_hours": "OPENINGHOURS"
+      "parking:SEITE:access": "no",
+      "parking:SEITE:access:conditional": "yes @ (OPENINGHOURS)"
     }
   },
   {
