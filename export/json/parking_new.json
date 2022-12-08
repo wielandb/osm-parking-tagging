@@ -228,8 +228,7 @@
     "sign_identifier": "314_1010-62",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-62.png",
     "area_tags": {
-      "access": "no",
-      "motorcycle": "designated"
+      "amenity": "motorcycle_parking"
     },
     "way_tags": {
       "parking:SEITE:access": "no",

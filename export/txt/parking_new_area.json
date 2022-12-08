@@ -18,7 +18,7 @@
   "314_1010-58": "access=noLINEBREAKmotorcar=designatedLINEBREAK",
   "314_1010-58_1040-32": "access=noLINEBREAKmotorcar=designatedLINEBREAKmaxstay=TIMELINEBREAKauthentication:disc=yesLINEBREAK",
   "314_1010-59": "access=noLINEBREAKtrailer=designatedLINEBREAK",
-  "314_1010-62": "access=noLINEBREAKmotorcycle=designatedLINEBREAK",
+  "314_1010-62": "amenity=motorcycle_parkingLINEBREAK",
   "314_1040-32": "maxstay=TIMELINEBREAKauthentication:disc=yesLINEBREAK",
   "314_1040-32_1020-32": "maxstay=TIMELINEBREAKmaxstay:conditional=no @ residentsLINEBREAKauthentication:disc=yesLINEBREAKzone=AUSWEISLINEBREAK",
   "314_1040-32_1042-33": "maxstay:conditional=TIME @ (OPENINGHOURS)LINEBREAKauthentication:disc:conditional=yes @ (OPENINGHOURS)LINEBREAK",
