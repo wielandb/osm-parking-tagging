@@ -345,6 +345,20 @@
     }
   },
   {
+    "sign_identifier": "314_1044-11_1042-33",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1044-11_1042-33.png",
+    "area_tags": {
+      "access:conditional": "no @ (OPENINGHOURS)",
+      "disabled:conditional": "private @ (OPENINGHOURS)",
+      "ref": "AUSWEIS"
+    },
+    "way_tags": {
+      "parking:SEITE:access:conditional": "no @ (OPENINGHOURS)",
+      "parking:SEITE:disabled_conditional": "private @ (OPENINGHOURS)",
+      "parking:SEITE:ref": "AUSWEIS"
+    }
+  },
+  {
     "sign_identifier": "314_1044-30",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1044-30.png",
     "area_tags": {
