@@ -27,7 +27,7 @@
   "314_1044-10": "parking:SEITE:access=noLINEBREAKparking:SEITE:disabled=designatedLINEBREAK",
   "314_1044-10_1042-33": "parking:SEITE:access=yesLINEBREAKparking:SEITE:access:conditional=no @ (OPENINGHOURS)LINEBREAKparking:SEITE:disabled:conditional=designated @ (OPENINGHOURS)LINEBREAK",
   "314_1044-11": "parking:SEITE:access=noLINEBREAKparking:SEITE:disabled=privateLINEBREAKparking:SEITE:ref=AUSWEISLINEBREAK",
-  "314_1044-11_1042-33": "parking:SEITE:access:conditional=no @ (OPENINGHOURS)LINEBREAKparking:SEITE:disabled_conditional=private @ (OPENINGHOURS)LINEBREAKparking:SEITE:ref=AUSWEISLINEBREAK",
+  "314_1044-11_1042-33": "parking:SEITE:access:conditional=no @ (OPENINGHOURS)LINEBREAKparking:SEITE:disabled:conditional=private @ (OPENINGHOURS)LINEBREAKparking:SEITE:ref=AUSWEISLINEBREAK",
   "314_1044-30": "parking:SEITE:access=privateLINEBREAKparking:SEITE:zone=AUSWEISLINEBREAK",
   "314_1050-32": "parking:SEITE:restriction=charging_onlyLINEBREAK",
   "314_1050-32_1040-32": "parking:SEITE:restriction=charging_onlyLINEBREAKparking:SEITE:maxstay=TIMELINEBREAKparking:SEITE:authentication:disc=yesLINEBREAK",

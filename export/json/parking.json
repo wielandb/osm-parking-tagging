@@ -353,7 +353,7 @@
     },
     "way_tags": {
       "parking:SEITE:access:conditional": "no @ (OPENINGHOURS)",
-      "parking:SEITE:disabled_conditional": "private @ (OPENINGHOURS)",
+      "parking:SEITE:disabled:conditional": "private @ (OPENINGHOURS)",
       "parking:SEITE:ref": "AUSWEIS"
     }
   },
