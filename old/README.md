@@ -1,0 +1,1 @@
+Hier finden sich Beispiele für das alte Schema zum Straßenparken, dass im Dezember 2022 durch das neue Schema abgelöst wurde. 

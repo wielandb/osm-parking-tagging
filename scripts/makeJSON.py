@@ -3,8 +3,8 @@ import os
 import sys
 import re
 
-# Read the file ..\parking_new.md
-with open(os.path.join('..', 'parking_new.md'), 'r') as f:
+# Read the file ..\parking.md
+with open(os.path.join('..', 'parking.md'), 'r') as f:
     data = f.read()
 
 # Split the file into lines
@@ -75,21 +75,21 @@ for line in lines:
     parkingTXTWay[sign_identifier] = tmpParkingTxt
 
 
-# save the parkingJSON data to export/json/parking_new.json
-with open(os.path.join('..','export', 'json', 'parking_new.json'), 'w') as f:
+# save the parkingJSON data to export/json/parking.json
+with open(os.path.join('..','export', 'json', 'parking.json'), 'w') as f:
     json.dump(parkingJSON, f, indent=2)
 
-# save the parkingTxt data to export/txt/parking_new_[type].json
-with open(os.path.join('..', 'export', 'txt', 'parking_new_area.json'), 'w') as f:
+# save the parkingTxt data to export/txt/parking_[type].json
+with open(os.path.join('..', 'export', 'txt', 'parking_area.json'), 'w') as f:
     json.dump(parkingTXTArea, f, indent=2)
-with open(os.path.join('..', 'export', 'txt', 'parking_new_way.json'), 'w') as f:
+with open(os.path.join('..', 'export', 'txt', 'parking_way.json'), 'w') as f:
     json.dump(parkingTXTWay, f, indent=2)
 
-# Read the file ..\parking_new.md
+# Read the file ..\parking.md
 # sort all lines that start with "| !" alphabetically
 # leave all the other lines untouched
-# save the sorted lines to ..\parking_new_sorted.md
-with open(os.path.join('..', 'parking_new.md'), 'r') as f:
+# save the sorted lines to ..\parking.md
+with open(os.path.join('..', 'parking.md'), 'r') as f:
     data = f.read()
 # Split the file into lines
 lines = data.splitlines()
@@ -115,7 +115,7 @@ for line in lines:
 # first all the lines to keep before the first line to sort
 # then all the lines to sort
 # then all the lines to keep after the last line to sort
-with open(os.path.join('..', 'parking_new.md'), 'w') as f:
+with open(os.path.join('..', 'parking.md'), 'w') as f:
     for line in linesToKeepBefore:
         f.write(line + "\n")
     for line in sorted(linesToSort):
