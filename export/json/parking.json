@@ -30,6 +30,16 @@
     }
   },
   {
+    "sign_identifier": "290",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/290.png",
+    "area_tags": {
+      "restriction": "no_parking"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction": "no_parking"
+    }
+  },
+  {
     "sign_identifier": "286_1010-51",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1010-51.png",
     "area_tags": {
@@ -249,19 +259,6 @@
     }
   },
   {
-    "sign_identifier": "314_1040-33",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1040-33.png",
-    "area_tags": {
-      "maxstay": "TIME",
-      "authentication:disc": "yes"
-    },
-    "way_tags": {
-      "parking:SEITE:fee": "no",
-      "parking:SEITE:maxstay": "TIME",
-      "parking:SEITE:authentication:disc": "yes"
-    }
-  },
-  {
     "sign_identifier": "314_1040-32_1020-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1040-32_1020-32.png",
     "area_tags": {
@@ -302,6 +299,19 @@
       "parking:SEITE:maxstay:conditional": "TIME @ (OPENINGHOURS); no @ residents",
       "parking:SEITE:authentication:disc:conditional": "yes @ (OPENINGHOURS)",
       "parking:SEITE:zone": "AUSWEIS"
+    }
+  },
+  {
+    "sign_identifier": "314_1040-33",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1040-33.png",
+    "area_tags": {
+      "maxstay": "TIME",
+      "authentication:disc": "yes"
+    },
+    "way_tags": {
+      "parking:SEITE:fee": "no",
+      "parking:SEITE:maxstay": "TIME",
+      "parking:SEITE:authentication:disc": "yes"
     }
   },
   {

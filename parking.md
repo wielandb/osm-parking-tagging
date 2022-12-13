@@ -10,6 +10,7 @@
 | ![286_1020-32](img/286_1020-32.png)                          | `restriction=no_parking`<br />`restriction:conditional=none @ residents`<br />`zone=AUSWEIS` | `parking:SEITE:restriction=no_parking`<br />`parking:SEITE:restriction:conditional=none @ residents`<br />`parking:SEITE:zone=AUSWEIS` |
 | ![286_1042-33](img/286_1042-33.png)                          | `restriction:conditional=no_parking @ (OPENINGHOURS)`        | `parking:SEITE:restriction:conditional=no_parking @ (OPENINGHOURS)` |
 | ![286_1042-33_1020-32](img/286_1042-33_1020-32.png)          | `restriction:conditional=no_parking @ (OPENINGHOURS); none @ residents`<br />`zone=AUSWEIS` | `parking:SEITE:restriction:conditional=no_parking @ (OPENINGHOURS); none @ residents`<br />`parking:SEITE:zone=AUSWEIS` |
+| ![290](img/290.png)                                          | `restriction=no_parking`                                     | `parking:SEITE:restriction=no_parking`                       |
 | ![314.1_1044-30](img/314.1_1044-30.png)                      | `access=private`<br />`zone=AUSWEIS`                         | `parking:SEITE:access=private`<br />`parking:SEITE:zone=AUSWEIS` |
 | ![314.1_1051-33](img/314.1_1051-33.png)                      | `fee=yes`<br />`authentication:ticket=yes`                   | `parking:SEITE:fee=yes`<br />`parking:SEITE:authentication:ticket=yes` |
 | ![314](img/314.png)                                          | `access=yes`<br />`fee=no`                                   | `parking:SEITE:fee=no`<br />`parking:SEITE:access=yes`       |
