@@ -37,6 +37,7 @@
 | ![314_1050-32_1040-32_1042-33](img/314_1050-32_1040-32_1042-33.png) | `restriction=charging_only`<br />`maxstay:conditional=TIME @ (OPENINGHOURS)`<br />`authentication:disc=yes` | `parking:SEITE:restriction=charging_only`<br />`parking:SEITE:maxstay:conditional=TIME @ (OPENINGHOURS)`<br />`parking:SEITE:authentication:disc=yes` |
 | ![314_1053-31](img/314_1053-31.png)                          | `fee=yes`<br />`authentication=ticket`                       | `parking:SEITE:fee=yes`<br />`parking:SEITE:authentication=ticket` |
 | ![314_1053-31_1020-32](img/314_1053-31_1020-32.png)          | `fee=yes`<br />`zone=AUSWEIS`<br />`authentication:ticket=yes` | `parking:SEITE:fee=yes`<br />`parking:SEITE:zone=AUSWEIS`<br />`parking:SEITE:authentication:ticket=yes` |
+| ![314_1053-31_1020-32_1042-33](img/314_1053-31_1020-32_1042-33.png) | `fee=yes`<br />`zone:conditional=AUSWEIS @ (OPENINGHOURS)`<br />`authentication:ticket=yes` | `parking:SEITE:fee=yes`<br />`parking:SEITE:zone:conditional=AUSWEIS @ (OPENINGHOURS)`<br />`parking:SEITE:authentication:ticket=yes` |
 
 
 
