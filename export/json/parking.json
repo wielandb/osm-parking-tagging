@@ -206,6 +206,20 @@
     }
   },
   {
+    "sign_identifier": "314_1010-58_1010-62",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-58_1010-62.png",
+    "area_tags": {
+      "access": "no",
+      "motorcar": "designated",
+      "motorcycle": "designated"
+    },
+    "way_tags": {
+      "parking:SEITE:access": "no",
+      "parking:SEITE:motorcar": "designated",
+      "parking:SEITE:motorcycle": "designated"
+    }
+  },
+  {
     "sign_identifier": "314_1010-58_1040-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-58_1040-32.png",
     "area_tags": {
@@ -443,22 +457,6 @@
     }
   },
   {
-    "sign_identifier": "314_1053-31_1042-33",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1053-31_1042-33.png",
-    "area_tags": {
-      "fee": "no",
-      "fee:conditional": "yes @ (OPENINGHOURS)",
-      "authentication:ticket": "no",
-      "authentication:ticket:conditional": "yes @ (OPENINGHOURS)"
-    },
-    "way_tags": {
-      "parking:SEITE:fee": "no",
-      "parking:SEITE:fee:conditional": "yes @ (OPENINGHOURS)",
-      "parking:SEITE:authentication:ticket": "no",
-      "parking:SEITE:authentication:ticket:conditional": "yes @ (OPENINGHOURS)"
-    }
-  },
-  {
     "sign_identifier": "314_1053-31_1020-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1053-31_1020-32.png",
     "area_tags": {
@@ -484,6 +482,22 @@
       "parking:SEITE:fee": "yes",
       "parking:SEITE:zone:conditional": "AUSWEIS @ (OPENINGHOURS)",
       "parking:SEITE:authentication:ticket": "yes"
+    }
+  },
+  {
+    "sign_identifier": "314_1053-31_1042-33",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1053-31_1042-33.png",
+    "area_tags": {
+      "fee": "no",
+      "fee:conditional": "yes @ (OPENINGHOURS)",
+      "authentication:ticket": "no",
+      "authentication:ticket:conditional": "yes @ (OPENINGHOURS)"
+    },
+    "way_tags": {
+      "parking:SEITE:fee": "no",
+      "parking:SEITE:fee:conditional": "yes @ (OPENINGHOURS)",
+      "parking:SEITE:authentication:ticket": "no",
+      "parking:SEITE:authentication:ticket:conditional": "yes @ (OPENINGHOURS)"
     }
   },
   {
