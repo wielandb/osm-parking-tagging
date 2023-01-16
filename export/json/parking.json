@@ -517,5 +517,55 @@
       "parking:SEITE:authentication:ticket:conditional": "yes @ (OPENINGHOURS)",
       "parking:SEITE:zone": "AUSWEIS"
     }
+  },
+  {
+    "sign_identifier": "286_1022-12",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1022-12.png",
+    "area_tags": {
+      "restriction": "no_parking",
+      "restriction:motorcycle": "none"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction": "no_parking",
+      "parking:SEITE:restriction:motorcycle": "none"
+    }
+  },
+  {
+    "sign_identifier": "286_1024-10",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1024-10.png",
+    "area_tags": {
+      "restriction": "no_parking",
+      "restriction:motorcar": "none"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction": "no_parking",
+      "parking:SEITE:restriction:motorcar": "none"
+    }
+  },
+  {
+    "sign_identifier": "286_1024-12",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1024-12.png",
+    "area_tags": {
+      "restriction": "no_parking",
+      "restriction:hgv": "none"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction": "no_parking",
+      "parking:SEITE:restriction:hgv": "none"
+    }
+  },
+  {
+    "sign_identifier": "286_1024-14",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1024-14.png",
+    "area_tags": {
+      "restriction": "no_parking",
+      "restriction:bus": "none",
+      "restriction:tourist_bus": "none"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction": "no_parking",
+      "parking:SEITE:restriction:bus": "none",
+      "parking:SEITE:restriction:tourist_bus": "none"
+    }
   }
 ]
