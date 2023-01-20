@@ -1,6 +1,7 @@
 [
   {
     "sign_identifier": "283",
+    "sign_osm_value": "283",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/283.png",
     "area_tags": {
       "restriction": "no_stopping"
@@ -11,6 +12,7 @@
   },
   {
     "sign_identifier": "283_1042-33",
+    "sign_osm_value": "283,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/283_1042-33.png",
     "area_tags": {
       "restriction:conditional": "no_stopping @ (OPENINGHOURS)"
@@ -21,6 +23,7 @@
   },
   {
     "sign_identifier": "286",
+    "sign_osm_value": "286",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286.png",
     "area_tags": {
       "restriction": "no_parking"
@@ -31,6 +34,7 @@
   },
   {
     "sign_identifier": "286_1010-51",
+    "sign_osm_value": "286,1010-51",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1010-51.png",
     "area_tags": {
       "restriction:hgv": "no_parking"
@@ -41,6 +45,7 @@
   },
   {
     "sign_identifier": "286_1010-51_1042-33",
+    "sign_osm_value": "286,1010-51,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1010-51_1042-33.png",
     "area_tags": {
       "restriction:hgv:conditional": "no_parking @ (OPENINGHOURS)"
@@ -51,6 +56,7 @@
   },
   {
     "sign_identifier": "286_1010-62",
+    "sign_osm_value": "286,1010-62",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1010-62.png",
     "area_tags": {
       "restriction:motorcycle": "no_parking"
@@ -61,6 +67,7 @@
   },
   {
     "sign_identifier": "286_1010-62_1042-33",
+    "sign_osm_value": "286,1010-62,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1010-62_1042-33.png",
     "area_tags": {
       "restriction:motorcycle:conditional": "no_parking @ (OPENINGHOURS)"
@@ -71,6 +78,7 @@
   },
   {
     "sign_identifier": "286_1020-32",
+    "sign_osm_value": "286,1020-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1020-32.png",
     "area_tags": {
       "restriction": "no_parking",
@@ -84,7 +92,62 @@
     }
   },
   {
+    "sign_identifier": "286_1022-12",
+    "sign_osm_value": "286,1022-12",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1022-12.png",
+    "area_tags": {
+      "restriction": "no_parking",
+      "restriction:motorcycle": "none"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction": "no_parking",
+      "parking:SEITE:restriction:motorcycle": "none"
+    }
+  },
+  {
+    "sign_identifier": "286_1024-10",
+    "sign_osm_value": "286,1024-10",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1024-10.png",
+    "area_tags": {
+      "restriction": "no_parking",
+      "restriction:motorcar": "none"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction": "no_parking",
+      "parking:SEITE:restriction:motorcar": "none"
+    }
+  },
+  {
+    "sign_identifier": "286_1024-12",
+    "sign_osm_value": "286,1024-12",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1024-12.png",
+    "area_tags": {
+      "restriction": "no_parking",
+      "restriction:hgv": "none"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction": "no_parking",
+      "parking:SEITE:restriction:hgv": "none"
+    }
+  },
+  {
+    "sign_identifier": "286_1024-14",
+    "sign_osm_value": "286,1024-14",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1024-14.png",
+    "area_tags": {
+      "restriction": "no_parking",
+      "restriction:bus": "none",
+      "restriction:tourist_bus": "none"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction": "no_parking",
+      "parking:SEITE:restriction:bus": "none",
+      "parking:SEITE:restriction:tourist_bus": "none"
+    }
+  },
+  {
     "sign_identifier": "286_1042-33",
+    "sign_osm_value": "286,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1042-33.png",
     "area_tags": {
       "restriction:conditional": "no_parking @ (OPENINGHOURS)"
@@ -95,6 +158,7 @@
   },
   {
     "sign_identifier": "286_1042-33_1020-32",
+    "sign_osm_value": "286,1042-33,1020-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1042-33_1020-32.png",
     "area_tags": {
       "restriction:conditional": "no_parking @ (OPENINGHOURS); none @ residents",
@@ -107,6 +171,7 @@
   },
   {
     "sign_identifier": "290",
+    "sign_osm_value": "290",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/290.png",
     "area_tags": {
       "restriction": "no_parking"
@@ -117,6 +182,7 @@
   },
   {
     "sign_identifier": "314.1_1044-30",
+    "sign_osm_value": "314.1,1044-30",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314.1_1044-30.png",
     "area_tags": {
       "access": "private",
@@ -129,6 +195,7 @@
   },
   {
     "sign_identifier": "314.1_1051-33",
+    "sign_osm_value": "314.1,1051-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314.1_1051-33.png",
     "area_tags": {
       "fee": "yes",
@@ -141,6 +208,7 @@
   },
   {
     "sign_identifier": "314",
+    "sign_osm_value": "314",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314.png",
     "area_tags": {
       "access": "yes",
@@ -153,6 +221,7 @@
   },
   {
     "sign_identifier": "314_1010-51",
+    "sign_osm_value": "314,1010-51",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-51.png",
     "area_tags": {
       "access": "no",
@@ -165,6 +234,7 @@
   },
   {
     "sign_identifier": "314_1010-57",
+    "sign_osm_value": "314,1010-57",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-57.png",
     "area_tags": {
       "access": "no",
@@ -179,6 +249,7 @@
   },
   {
     "sign_identifier": "314_1010-57_1042-33",
+    "sign_osm_value": "314,1010-57,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-57_1042-33.png",
     "area_tags": {
       "access:conditional": "no @ (OPENINGHOURS)",
@@ -195,6 +266,7 @@
   },
   {
     "sign_identifier": "314_1010-58",
+    "sign_osm_value": "314,1010-58",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-58.png",
     "area_tags": {
       "access": "no",
@@ -207,6 +279,7 @@
   },
   {
     "sign_identifier": "314_1010-58_1010-62",
+    "sign_osm_value": "314,1010-58,1010-62",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-58_1010-62.png",
     "area_tags": {
       "access": "no",
@@ -221,6 +294,7 @@
   },
   {
     "sign_identifier": "314_1010-58_1040-32",
+    "sign_osm_value": "314,1010-58,1040-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-58_1040-32.png",
     "area_tags": {
       "access": "no",
@@ -238,6 +312,7 @@
   },
   {
     "sign_identifier": "314_1010-59",
+    "sign_osm_value": "314,1010-59",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-59.png",
     "area_tags": {
       "access": "no",
@@ -250,6 +325,7 @@
   },
   {
     "sign_identifier": "314_1010-62",
+    "sign_osm_value": "314,1010-62",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-62.png",
     "area_tags": {
       "amenity": "motorcycle_parking"
@@ -261,6 +337,7 @@
   },
   {
     "sign_identifier": "314_1040-32",
+    "sign_osm_value": "314,1040-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1040-32.png",
     "area_tags": {
       "maxstay": "TIME",
@@ -274,6 +351,7 @@
   },
   {
     "sign_identifier": "314_1040-32_1020-32",
+    "sign_osm_value": "314,1040-32,1020-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1040-32_1020-32.png",
     "area_tags": {
       "maxstay": "TIME",
@@ -290,6 +368,7 @@
   },
   {
     "sign_identifier": "314_1040-32_1042-33",
+    "sign_osm_value": "314,1040-32,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1040-32_1042-33.png",
     "area_tags": {
       "maxstay:conditional": "TIME @ (OPENINGHOURS)",
@@ -303,6 +382,7 @@
   },
   {
     "sign_identifier": "314_1040-32_1042-33_1020-32",
+    "sign_osm_value": "314,1040-32,1042-33,1020-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1040-32_1042-33_1020-32.png",
     "area_tags": {
       "maxstay:conditional": "TIME @ (OPENINGHOURS); no @ residents",
@@ -317,6 +397,7 @@
   },
   {
     "sign_identifier": "314_1040-33",
+    "sign_osm_value": "314,1040-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1040-33.png",
     "area_tags": {
       "maxstay": "TIME",
@@ -330,6 +411,7 @@
   },
   {
     "sign_identifier": "314_1042-33",
+    "sign_osm_value": "314,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1042-33.png",
     "area_tags": {
       "access": "no",
@@ -342,6 +424,7 @@
   },
   {
     "sign_identifier": "314_1044-10",
+    "sign_osm_value": "314,1044-10",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1044-10.png",
     "area_tags": {
       "access": "no",
@@ -354,6 +437,7 @@
   },
   {
     "sign_identifier": "314_1044-10_1042-33",
+    "sign_osm_value": "314,1044-10,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1044-10_1042-33.png",
     "area_tags": {
       "access": "yes",
@@ -368,6 +452,7 @@
   },
   {
     "sign_identifier": "314_1044-11",
+    "sign_osm_value": "314,1044-11",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1044-11.png",
     "area_tags": {
       "access": "no",
@@ -382,6 +467,7 @@
   },
   {
     "sign_identifier": "314_1044-11_1042-33",
+    "sign_osm_value": "314,1044-11,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1044-11_1042-33.png",
     "area_tags": {
       "access:conditional": "no @ (OPENINGHOURS)",
@@ -396,6 +482,7 @@
   },
   {
     "sign_identifier": "314_1044-30",
+    "sign_osm_value": "314,1044-30",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1044-30.png",
     "area_tags": {
       "access": "private",
@@ -408,6 +495,7 @@
   },
   {
     "sign_identifier": "314_1050-32",
+    "sign_osm_value": "314,1050-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1050-32.png",
     "area_tags": {
       "restriction": "charging_only"
@@ -418,6 +506,7 @@
   },
   {
     "sign_identifier": "314_1050-32_1040-32",
+    "sign_osm_value": "314,1050-32,1040-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1050-32_1040-32.png",
     "area_tags": {
       "restriction": "charging_only",
@@ -432,6 +521,7 @@
   },
   {
     "sign_identifier": "314_1050-32_1040-32_1042-33",
+    "sign_osm_value": "314,1050-32,1040-32,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1050-32_1040-32_1042-33.png",
     "area_tags": {
       "restriction": "charging_only",
@@ -446,6 +536,7 @@
   },
   {
     "sign_identifier": "314_1053-31",
+    "sign_osm_value": "314,1053-31",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1053-31.png",
     "area_tags": {
       "fee": "yes",
@@ -458,6 +549,7 @@
   },
   {
     "sign_identifier": "314_1053-31_1020-32",
+    "sign_osm_value": "314,1053-31,1020-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1053-31_1020-32.png",
     "area_tags": {
       "fee": "yes",
@@ -472,6 +564,7 @@
   },
   {
     "sign_identifier": "314_1053-31_1020-32_1042-33",
+    "sign_osm_value": "314,1053-31,1020-32,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1053-31_1020-32_1042-33.png",
     "area_tags": {
       "fee": "yes",
@@ -486,6 +579,7 @@
   },
   {
     "sign_identifier": "314_1053-31_1042-33",
+    "sign_osm_value": "314,1053-31,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1053-31_1042-33.png",
     "area_tags": {
       "fee": "no",
@@ -502,6 +596,7 @@
   },
   {
     "sign_identifier": "314_1053-31_1042-33_1020-32",
+    "sign_osm_value": "314,1053-31,1042-33,1020-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1053-31_1042-33_1020-32.png",
     "area_tags": {
       "fee": "no",
@@ -516,56 +611,6 @@
       "parking:SEITE:authentication:ticket": "no",
       "parking:SEITE:authentication:ticket:conditional": "yes @ (OPENINGHOURS)",
       "parking:SEITE:zone": "AUSWEIS"
-    }
-  },
-  {
-    "sign_identifier": "286_1022-12",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1022-12.png",
-    "area_tags": {
-      "restriction": "no_parking",
-      "restriction:motorcycle": "none"
-    },
-    "way_tags": {
-      "parking:SEITE:restriction": "no_parking",
-      "parking:SEITE:restriction:motorcycle": "none"
-    }
-  },
-  {
-    "sign_identifier": "286_1024-10",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1024-10.png",
-    "area_tags": {
-      "restriction": "no_parking",
-      "restriction:motorcar": "none"
-    },
-    "way_tags": {
-      "parking:SEITE:restriction": "no_parking",
-      "parking:SEITE:restriction:motorcar": "none"
-    }
-  },
-  {
-    "sign_identifier": "286_1024-12",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1024-12.png",
-    "area_tags": {
-      "restriction": "no_parking",
-      "restriction:hgv": "none"
-    },
-    "way_tags": {
-      "parking:SEITE:restriction": "no_parking",
-      "parking:SEITE:restriction:hgv": "none"
-    }
-  },
-  {
-    "sign_identifier": "286_1024-14",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1024-14.png",
-    "area_tags": {
-      "restriction": "no_parking",
-      "restriction:bus": "none",
-      "restriction:tourist_bus": "none"
-    },
-    "way_tags": {
-      "parking:SEITE:restriction": "no_parking",
-      "parking:SEITE:restriction:bus": "none",
-      "parking:SEITE:restriction:tourist_bus": "none"
     }
   }
 ]
