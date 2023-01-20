@@ -32,6 +32,7 @@ for line in lines:
     print(image)
     sign_identifier = re.search(r'\[(.*?)\]', image).group(1)
     print(sign_identifier)
+    sign_osm_value = sign_identifier.replace("_", ",")
     # get the way the osm traffic sign key would be tagged, by replacing _ with ,
     osm_traffic_sign = sign_identifier.replace("_", ",")
     # regex to get the part between ()
@@ -61,6 +62,7 @@ for line in lines:
     # Create a dictionary to store the data
     parkingJSON.append({
         'sign_identifier': sign_identifier,
+        'sign_osm_value': sign_osm_value,
         'img_url': img_url,
         'area_tags': areaTags,
         'way_tags': wayTags
