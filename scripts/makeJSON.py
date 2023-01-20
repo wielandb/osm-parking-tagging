@@ -33,7 +33,7 @@ for line in lines:
     sign_identifier = re.search(r'\[(.*?)\]', image).group(1)
     print(sign_identifier)
     # get the way the osm traffic sign key would be tagged, by replacing _ with ,
-    osm_traffic_sign = sign_identifier.replace("_", ",")
+    osm_traffic_sign = "DE:" + sign_identifier.replace("_", ",")
     # regex to get the part between ()
     url_1 = "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/"
     url_2 = re.search(r'\((.*?)\)', image).group(1)
