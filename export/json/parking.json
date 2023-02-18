@@ -612,5 +612,16 @@
       "parking:SEITE:authentication:ticket:conditional": "yes @ (OPENINGHOURS)",
       "parking:SEITE:zone": "AUSWEIS"
     }
+  },
+  {
+    "sign_identifier": "286_1026-35",
+    "sign_osm_value": "DE:286,1026-35",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\286_1026-35.png",
+    "area_tags": {
+      "access": "delivery"
+    },
+    "way_tags": {
+      "parking:SEITE:access": "delivery"
+    }
   }
 ]
