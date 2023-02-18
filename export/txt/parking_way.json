@@ -11,6 +11,7 @@
   "286_1024-10": "parking:SEITE:restriction=no_parkingLINEBREAKparking:SEITE:restriction:motorcar=noneLINEBREAK",
   "286_1024-12": "parking:SEITE:restriction=no_parkingLINEBREAKparking:SEITE:restriction:hgv=noneLINEBREAK",
   "286_1024-14": "parking:SEITE:restriction=no_parkingLINEBREAKparking:SEITE:restriction:bus=noneLINEBREAKparking:SEITE:restriction:tourist_bus=noneLINEBREAK",
+  "286_1026-35": "parking:SEITE:access=deliveryLINEBREAK",
   "286_1042-33": "parking:SEITE:restriction:conditional=no_parking @ (OPENINGHOURS)LINEBREAK",
   "286_1042-33_1020-32": "parking:SEITE:restriction:conditional=no_parking @ (OPENINGHOURS); none @ residentsLINEBREAKparking:SEITE:zone=AUSWEISLINEBREAK",
   "290": "parking:SEITE:restriction=no_parkingLINEBREAK",
@@ -44,5 +45,6 @@
   "314_1053-31_1020-32_1042-33": "parking:SEITE:fee=yesLINEBREAKparking:SEITE:zone:conditional=AUSWEIS @ (OPENINGHOURS)LINEBREAKparking:SEITE:authentication:ticket=yesLINEBREAK",
   "314_1053-31_1042-33": "parking:SEITE:fee=noLINEBREAKparking:SEITE:fee:conditional=yes @ (OPENINGHOURS)LINEBREAKparking:SEITE:authentication:ticket=noLINEBREAKparking:SEITE:authentication:ticket:conditional=yes @ (OPENINGHOURS)LINEBREAK",
   "314_1053-31_1042-33_1020-32": "parking:SEITE:fee=noLINEBREAKparking:SEITE:fee:conditional=yes @ (OPENINGHOURS)LINEBREAKparking:SEITE:authentication:ticket=noLINEBREAKparking:SEITE:authentication:ticket:conditional=yes @ (OPENINGHOURS)LINEBREAKparking:SEITE:zone=AUSWEISLINEBREAK",
-  "286_1026-35": "parking:SEITE:access=deliveryLINEBREAK"
+  "314_1010-58_1040-33_1042-33": "parking:SEITE:motorcar=designatedLINEBREAKparking:SEITE:authentication:disc=noLINEBREAKparking:SEITE:maxstay=noLINEBREAKparking:SEITE:maxstay:conditional=TIME @ (OPENING_HOURS)LINEBREAKparking:SEITE:authentication:disc:conditional=yes @ (OPENING_HOURS)LINEBREAK",
+  "314_1010-58_1040-33": "parking:SEITE:motorcar=designatedLINEBREAKparking:SEITE:authentication:disc=yesLINEBREAKparking:SEITE:maxstay=TIMELINEBREAKparking:SEITE:vehicle=noLINEBREAK"
 }
