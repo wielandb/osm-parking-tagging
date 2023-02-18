@@ -322,37 +322,21 @@
     }
   },
   {
-    "sign_identifier": "314_1010-58_1042-33",
-    "sign_osm_value": "DE:314,1010-58,1042-33",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\314_1010-58_1042-33.png",
-    "area_tags": {
-      "motorcar": "yes",
-      "motorcar:conditional": "designated @ (OPENING_HOURS)",
-      "vehicle": "designated",
-      "vehicle:conditional": "no @ (OPENING_HOURS)"
-    },
-    "way_tags": {
-      "parking:SEITE:motorcar": "yes",
-      "parking:SEITE:motorcar:conditional": "designated @ (OPENING_HOURS)",
-      "parking:SEITE:vehicle": "designated",
-      "parking:SEITE:vehicle:conditional": "no @ (OPENING_HOURS)"
-    }
-  },
-  {
     "sign_identifier": "314_1010-58_1040-33",
     "sign_osm_value": "DE:314,1010-58,1040-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-58_1040-33.png",
     "area_tags": {
+      "access": "no",
       "motorcar": "designated",
-      "authentication:disc": "yes",
       "maxstay": "TIME",
-      "vehicle": "no"
+      "authentication:disc": "yes"
     },
     "way_tags": {
+      "parking:SEITE:access": "no",
       "parking:SEITE:motorcar": "designated",
-      "parking:SEITE:authentication:disc": "yes",
+      "parking:SEITE:fee": "no",
       "parking:SEITE:maxstay": "TIME",
-      "parking:SEITE:vehicle": "no"
+      "parking:SEITE:authentication:disc": "yes"
     }
   },
   {
@@ -373,6 +357,23 @@
       "parking:SEITE:maxstay": "no",
       "parking:SEITE:maxstay:conditional": "TIME @ (OPENING_HOURS)",
       "parking:SEITE:authentication:disc:conditional": "yes @ (OPENING_HOURS)"
+    }
+  },
+  {
+    "sign_identifier": "314_1010-58_1042-33",
+    "sign_osm_value": "DE:314,1010-58,1042-33",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-58_1042-33.png",
+    "area_tags": {
+      "motorcar": "yes",
+      "motorcar:conditional": "designated @ (OPENING_HOURS)",
+      "vehicle": "designated",
+      "vehicle:conditional": "no @ (OPENING_HOURS)"
+    },
+    "way_tags": {
+      "parking:SEITE:motorcar": "yes",
+      "parking:SEITE:motorcar:conditional": "designated @ (OPENING_HOURS)",
+      "parking:SEITE:vehicle": "designated",
+      "parking:SEITE:vehicle:conditional": "no @ (OPENING_HOURS)"
     }
   },
   {
