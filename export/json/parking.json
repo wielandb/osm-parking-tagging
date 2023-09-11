@@ -678,5 +678,18 @@
       "parking:SEITE:authentication:ticket:conditional": "yes @ (OPENINGHOURS)",
       "parking:SEITE:zone": "AUSWEIS"
     }
+  },
+  {
+    "sign_identifier": "314_1010-66",
+    "sign_osm_value": "DE:314,1010-66",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-66.png",
+    "area_tags": {
+      "vehicle": "no",
+      "vehicle:electric": "designated"
+    },
+    "way_tags": {
+      "parking:SEITE:vehicle": "no",
+      "parking:SEITE:vehicle:electric": "designated"
+    }
   }
 ]

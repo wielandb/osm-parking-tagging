@@ -47,5 +47,6 @@
   "314_1053-31_1020-32": "fee=yesLINEBREAKzone=AUSWEISLINEBREAKauthentication:ticket=yesLINEBREAK",
   "314_1053-31_1020-32_1042-33": "fee=yesLINEBREAKzone:conditional=AUSWEIS @ (OPENINGHOURS)LINEBREAKauthentication:ticket=yesLINEBREAK",
   "314_1053-31_1042-33": "fee=noLINEBREAKfee:conditional=yes @ (OPENINGHOURS)LINEBREAKauthentication:ticket=noLINEBREAKauthentication:ticket:conditional=yes @ (OPENINGHOURS)LINEBREAK",
-  "314_1053-31_1042-33_1020-32": "fee=noLINEBREAKfee:conditional=yes @ (OPENINGHOURS)LINEBREAKauthentication:ticket=noLINEBREAKauthentication:ticket:conditional=yes @ (OPENINGHOURS)LINEBREAKzone=AUSWEISLINEBREAK"
+  "314_1053-31_1042-33_1020-32": "fee=noLINEBREAKfee:conditional=yes @ (OPENINGHOURS)LINEBREAKauthentication:ticket=noLINEBREAKauthentication:ticket:conditional=yes @ (OPENINGHOURS)LINEBREAKzone=AUSWEISLINEBREAK",
+  "314_1010-66": "vehicle=noLINEBREAKvehicle:electric=designatedLINEBREAK"
 }
