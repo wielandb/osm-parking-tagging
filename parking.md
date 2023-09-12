@@ -1,6 +1,7 @@
 |                                                              | Tags für eine Fläche                                         | Tags für einen Way                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![283](img/283.png)                                          | `restriction=no_stopping`                                    | `parking:SEITE:restriction=no_stopping`                      |
+| ![283_1024-20](img/283_1024-20.png)                          | `restriction=no_stopping`<br />`restriction:vehicle:electric=none` | `parking:SEITE:restriction=no_stopping`<br />`parking:SEITE:restriction:vehicle:electric=none` |
 | ![283_1042-33](img/283_1042-33.png)                          | `restriction:conditional=no_stopping @ (OPENINGHOURS)`       | `parking:SEITE:restriction:conditional=no_stopping @ (OPENINGHOURS)` |
 | ![286](img/286.png)                                          | `restriction=no_parking`                                     | `parking:SEITE:restriction=no_parking`                       |
 | ![286_1010-51](img/286_1010-51.png)                          | `restriction:hgv=no_parking`                                 | `parking:SEITE:restriction:hgv=no_parking`                   |
@@ -16,6 +17,7 @@
 | ![286_1026-35](img/286_1026-35.png)                          | `access=delivery`                                            | `parking:SEITE:access=delivery`                              |
 | ![286_1042-33](img/286_1042-33.png)                          | `restriction:conditional=no_parking @ (OPENINGHOURS)`        | `parking:SEITE:restriction:conditional=no_parking @ (OPENINGHOURS)` |
 | ![286_1042-33_1020-32](img/286_1042-33_1020-32.png)          | `restriction:conditional=no_parking @ (OPENINGHOURS); none @ residents`<br />`zone=AUSWEIS` | `parking:SEITE:restriction:conditional=no_parking @ (OPENINGHOURS); none @ residents`<br />`parking:SEITE:zone=AUSWEIS` |
+| ![286_1053-33](img/286_1053-33.png)                          | `maxweight=OTHER`                                            | `parking:SEITE:maxweight=OTHER`                              |
 | ![290](img/290.png)                                          | `restriction=no_parking`                                     | `parking:SEITE:restriction=no_parking`                       |
 | ![314.1_1044-30](img/314.1_1044-30.png)                      | `access=private`<br />`zone=AUSWEIS`                         | `parking:SEITE:access=private`<br />`parking:SEITE:zone=AUSWEIS` |
 | ![314.1_1051-33](img/314.1_1051-33.png)                      | `fee=yes`<br />`authentication:ticket=yes`                   | `parking:SEITE:fee=yes`<br />`parking:SEITE:authentication:ticket=yes` |
@@ -32,6 +34,8 @@
 | ![314_1010-59](img/314_1010-59.png)                          | `access=no`<br />`trailer=designated`                        | `parking:SEITE:access=no`<br />`parking:SEITE:trailer=designated` |
 | ![314_1010-62](img/314_1010-62.png)                          | `amenity=motorcycle_parking`<br />                           | `parking:SEITE:access=no`<br />`parking:SEITE:motorcycle=designated` |
 | ![314_1010-66](img/314_1010-66.png)                          | `vehicle=no`<br />`vehicle:electric=designated`<br />        | `parking:SEITE:vehicle=no`<br />`parking:SEITE:vehicle:electric=designated` |
+| ![314_1010-66_1040-32](img/314_1010-66_1040-32.png)          | `vehicle=no`<br />`vehicle:electric=designated`<br />`maxstay=TIME`<br />`authentication:disc=yes` | `parking:SEITE:vehicle=no`<br />`parking:SEITE:vehicle:electric=designated`<br />`parking:SEITE:maxstay=TIME`<br />`parking:SEITE:authentication:disc=yes` |
+| ![314_1010-66_1040-32](img/314_1044-30_1042-33.png)          | `access=yes`<br />`access:conditional=private @ (TIME)`<br />`zone=AUSWEIS` | `parking:SEITE:access=yes`<br />`parking:SEITE:access:conditional=private @ (TIME)`<br />`parking:SEITE:zone=AUSWEIS` |
 | ![314_1040-32](img/314_1040-32.png)                          | `maxstay=TIME`<br />`authentication:disc=yes`                | `parking:SEITE:fee=no`<br />`parking:SEITE:maxstay=TIME`<br />`parking:SEITE:authentication:disc=yes` |
 | ![314_1040-32_1020-32](img/314_1040-32_1020-32.png)          | `maxstay=TIME`<br />`maxstay:conditional=no @ residents`<br />`authentication:disc=yes`<br />`zone=AUSWEIS` | `parking:SEITE:maxstay=TIME`<br />`parking:SEITE:maxstay:conditional=no @ residents`<br />`parking:SEITE:authentication:disc=yes`<br />`parking:SEITE:zone=AUSWEIS` |
 | ![314_1040-32_1042-33](img/314_1040-32_1042-33.png)          | `maxstay:conditional=TIME @ (OPENINGHOURS)`<br />`authentication:disc:conditional=yes @ (OPENINGHOURS)` | `parking:SEITE:fee=no`<br />`parking:SEITE:maxstay:conditional=TIME @ (OPENINGHOURS)`<br />`parking:SEITE:authentication:disc:conditional=yes @ (OPENINGHOURS)` |
@@ -50,7 +54,6 @@
 | ![314_1053-31_1020-32](img/314_1053-31_1020-32.png)          | `fee=yes`<br />`zone=AUSWEIS`<br />`authentication:ticket=yes` | `parking:SEITE:fee=yes`<br />`parking:SEITE:zone=AUSWEIS`<br />`parking:SEITE:authentication:ticket=yes` |
 | ![314_1053-31_1020-32_1042-33](img/314_1053-31_1020-32_1042-33.png) | `fee=yes`<br />`zone:conditional=AUSWEIS @ (OPENINGHOURS)`<br />`authentication:ticket=yes` | `parking:SEITE:fee=yes`<br />`parking:SEITE:zone:conditional=AUSWEIS @ (OPENINGHOURS)`<br />`parking:SEITE:authentication:ticket=yes` |
 | ![314_1053-31_1042-33](img/314_1053-31_1042-33.png)          | `fee=no`<br />`fee:conditional=yes @ (OPENINGHOURS)`<br />`authentication:ticket=no`<br />`authentication:ticket:conditional=yes @ (OPENINGHOURS)` | `parking:SEITE:fee=no`<br />`parking:SEITE:fee:conditional=yes @ (OPENINGHOURS)`<br />`parking:SEITE:authentication:ticket=no`<br />`parking:SEITE:authentication:ticket:conditional=yes @ (OPENINGHOURS)` |
-| ![314_1053-31_1042-33_1020-32](img/314_1053-31_1042-33_1020-32.png) | `fee=no`<br />`fee:conditional=yes @ (OPENINGHOURS)`<br />`authentication:ticket=no`<br />`authentication:ticket:conditional=yes @ (OPENINGHOURS)`<br />`zone=AUSWEIS` | `parking:SEITE:fee=no`<br />`parking:SEITE:fee:conditional=yes @ (OPENINGHOURS)`<br />`parking:SEITE:authentication:ticket=no`<br />`parking:SEITE:authentication:ticket:conditional=yes @ (OPENINGHOURS)`<br />`parking:SEITE:zone=AUSWEIS` |
 
 
 
@@ -60,3 +63,4 @@
 - `OPENINGHOURS` - Platzhalter für Zeitspannen, zu denen Beschränkungen gelten
 - `TIME` - Zeit, die auf dem Parkscheiben-Schild steht
 - `AUSWEIS` - Nr. des Parkausweises, die auf dem Schild angegeben ist
+- `OTHER` - Ein "anderer" Wert, der für das generieren der Tags notwendig ist
