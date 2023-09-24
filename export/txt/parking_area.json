@@ -33,7 +33,7 @@
   "314_1010-59": "access=noLINEBREAKtrailer=designatedLINEBREAK",
   "314_1010-62": "amenity=motorcycle_parkingLINEBREAK",
   "314_1010-66": "vehicle=noLINEBREAKvehicle:electric=designatedLINEBREAK",
-  "314_1010-66_1040-32": "vehicle=noLINEBREAKvehicle:electric=designatedLINEBREAKmaxstay=TIMELINEBREAKauthentication:disc=yesLINEBREAK",
+  "314_1010-66_1040-32": "access=yesLINEBREAKaccess:conditional=private @ (TIME)LINEBREAKzone=AUSWEISLINEBREAK",
   "314_1040-32": "maxstay=TIMELINEBREAKauthentication:disc=yesLINEBREAK",
   "314_1040-32_1020-32": "maxstay=TIMELINEBREAKmaxstay:conditional=no @ residentsLINEBREAKauthentication:disc=yesLINEBREAKzone=AUSWEISLINEBREAK",
   "314_1040-32_1042-33": "maxstay:conditional=TIME @ (OPENINGHOURS)LINEBREAKauthentication:disc:conditional=yes @ (OPENINGHOURS)LINEBREAK",
@@ -51,5 +51,6 @@
   "314_1053-31": "fee=yesLINEBREAKauthentication:ticket=yesLINEBREAK",
   "314_1053-31_1020-32": "fee=yesLINEBREAKzone=AUSWEISLINEBREAKauthentication:ticket=yesLINEBREAK",
   "314_1053-31_1020-32_1042-33": "fee=yesLINEBREAKzone:conditional=AUSWEIS @ (OPENINGHOURS)LINEBREAKauthentication:ticket=yesLINEBREAK",
-  "314_1053-31_1042-33": "fee=noLINEBREAKfee:conditional=yes @ (OPENINGHOURS)LINEBREAKauthentication:ticket=noLINEBREAKauthentication:ticket:conditional=yes @ (OPENINGHOURS)LINEBREAK"
+  "314_1053-31_1042-33": "fee=noLINEBREAKfee:conditional=yes @ (OPENINGHOURS)LINEBREAKauthentication:ticket=noLINEBREAKauthentication:ticket:conditional=yes @ (OPENINGHOURS)LINEBREAK",
+  "314_1053-31_1024-14": "fee=yesLINEBREAKfee:bus=noLINEBREAKfee:tourist_bus=noLINEBREAKauthentication:ticket=yesLINEBREAKauthentication:ticket:bus=noLINEBREAKauthentication:ticket:tourist_bus=noLINEBREAK"
 }

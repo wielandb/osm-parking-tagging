@@ -454,21 +454,6 @@
   {
     "sign_identifier": "314_1010-66_1040-32",
     "sign_osm_value": "DE:314,1010-66,1040-32",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1044-30_1042-33.png",
-    "area_tags": {
-      "access": "yes",
-      "access:conditional": "private @ (TIME)",
-      "zone": "AUSWEIS"
-    },
-    "way_tags": {
-      "parking:SEITE:access": "yes",
-      "parking:SEITE:access:conditional": "private @ (TIME)",
-      "parking:SEITE:zone": "AUSWEIS"
-    }
-  },
-  {
-    "sign_identifier": "314_1010-66_1040-32",
-    "sign_osm_value": "DE:314,1010-66,1040-32",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-66_1040-32.png",
     "area_tags": {
       "vehicle": "no",
@@ -481,6 +466,21 @@
       "parking:SEITE:vehicle:electric": "designated",
       "parking:SEITE:maxstay": "TIME",
       "parking:SEITE:authentication:disc": "yes"
+    }
+  },
+  {
+    "sign_identifier": "314_1010-66_1040-32",
+    "sign_osm_value": "DE:314,1010-66,1040-32",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1044-30_1042-33.png",
+    "area_tags": {
+      "access": "yes",
+      "access:conditional": "private @ (TIME)",
+      "zone": "AUSWEIS"
+    },
+    "way_tags": {
+      "parking:SEITE:access": "yes",
+      "parking:SEITE:access:conditional": "private @ (TIME)",
+      "parking:SEITE:zone": "AUSWEIS"
     }
   },
   {
@@ -740,6 +740,27 @@
       "parking:SEITE:fee:conditional": "yes @ (OPENINGHOURS)",
       "parking:SEITE:authentication:ticket": "no",
       "parking:SEITE:authentication:ticket:conditional": "yes @ (OPENINGHOURS)"
+    }
+  },
+  {
+    "sign_identifier": "314_1053-31_1024-14",
+    "sign_osm_value": "DE:314,1053-31,1024-14",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\314_1053-31_1024-14.png",
+    "area_tags": {
+      "fee": "yes",
+      "fee:bus": "no",
+      "fee:tourist_bus": "no",
+      "authentication:ticket": "yes",
+      "authentication:ticket:bus": "no",
+      "authentication:ticket:tourist_bus": "no"
+    },
+    "way_tags": {
+      "parking:SEITE:fee": "yes",
+      "parking:SEITE:fee:bus": "no",
+      "parking:SEITE:fee:tourist_bus": "no",
+      "parking:SEITE:authentication:ticket": "yes",
+      "parking:SEITE:authentication:ticket:bus": "no",
+      "parking:SEITE:authentication:ticket:tourist_bus": "no"
     }
   }
 ]
