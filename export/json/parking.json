@@ -159,21 +159,6 @@
     }
   },
   {
-    "sign_identifier": "290_1024-14",
-    "sign_osm_value": "DE:290,1024-14",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/290_1024-14.png",
-    "area_tags": {
-      "restriction": "no_parking",
-      "restriction:bus": "none",
-      "restriction:tourist_bus": "none"
-    },
-    "way_tags": {
-      "parking:SEITE:restriction": "no_parking",
-      "parking:SEITE:restriction:bus": "none",
-      "parking:SEITE:restriction:tourist_bus": "none"
-    }
-  },
-  {
     "sign_identifier": "286_1024-20",
     "sign_osm_value": "DE:286,1024-20",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/286_1024-20.png",
@@ -241,6 +226,21 @@
     },
     "way_tags": {
       "parking:SEITE:restriction": "no_parking"
+    }
+  },
+  {
+    "sign_identifier": "290_1024-14",
+    "sign_osm_value": "DE:290,1024-14",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/290_1024-14.png",
+    "area_tags": {
+      "restriction": "no_parking",
+      "restriction:bus": "none",
+      "restriction:tourist_bus": "none"
+    },
+    "way_tags": {
+      "parking:SEITE:restriction": "no_parking",
+      "parking:SEITE:restriction:bus": "none",
+      "parking:SEITE:restriction:tourist_bus": "none"
     }
   },
   {
@@ -825,6 +825,20 @@
       "parking:SEITE:fee:conditional": "yes @ (OPENINGHOURS)",
       "parking:SEITE:authentication:ticket": "no",
       "parking:SEITE:authentication:ticket:conditional": "yes @ (OPENINGHOURS)"
+    }
+  },
+  {
+    "sign_identifier": "314.1_1040-33_1042-33",
+    "sign_osm_value": "DE:314.1,1040-33,1042-33",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314.1_1040-33_1042-33.png",
+    "area_tags": {
+      "maxstay:conditional": "TIME @ (OPENINGHOURS)",
+      "authentication:disc:conditional": "yes @ (OPENINGHOURS)"
+    },
+    "way_tags": {
+      "parking:SEITE:fee": "no",
+      "parking:SEITE:maxstay:conditional": "TIME @ (OPENINGHOURS)",
+      "parking:SEITE:authentication:disc:conditional": "yes @ (OPENINGHOURS)"
     }
   }
 ]
