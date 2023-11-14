@@ -763,5 +763,22 @@
       "parking:SEITE:authentication:ticket": "no",
       "parking:SEITE:authentication:ticket:conditional": "yes @ (OPENINGHOURS)"
     }
+  },
+  {
+    "sign_identifier": "314_1040-33_1020-32",
+    "sign_osm_value": "DE:314,1040-33,1020-32",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\314_1040-33_1020-32.png",
+    "area_tags": {
+      "maxstay": "TIME",
+      "authentication:ticket": "yes",
+      "maxstay:conditional": "no @ (residents)",
+      "authentication:ticket:conditional": "no @ (residents)"
+    },
+    "way_tags": {
+      "parking:SEITE:maxstay": "TIME",
+      "parking:SEITE:authentication:ticket": "yes",
+      "parking:SEITE:maxstay:conditional": "no @ (residents)",
+      "parking:SEITE:authentication:ticket:conditional": "no @ (residents)"
+    }
   }
 ]
