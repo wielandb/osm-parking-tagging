@@ -559,6 +559,23 @@
     }
   },
   {
+    "sign_identifier": "314_1040-33_1020-32",
+    "sign_osm_value": "DE:314,1040-33,1020-32",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1040-33_1020-32.png",
+    "area_tags": {
+      "maxstay": "TIME",
+      "authentication:ticket": "yes",
+      "maxstay:conditional": "no @ (residents)",
+      "authentication:ticket:conditional": "no @ (residents)"
+    },
+    "way_tags": {
+      "parking:SEITE:maxstay": "TIME",
+      "parking:SEITE:authentication:ticket": "yes",
+      "parking:SEITE:maxstay:conditional": "no @ (residents)",
+      "parking:SEITE:authentication:ticket:conditional": "no @ (residents)"
+    }
+  },
+  {
     "sign_identifier": "314_1042-33",
     "sign_osm_value": "DE:314,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1042-33.png",
@@ -765,20 +782,17 @@
     }
   },
   {
-    "sign_identifier": "314_1040-33_1020-32",
-    "sign_osm_value": "DE:314,1040-33,1020-32",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\314_1040-33_1020-32.png",
+    "sign_identifier": "314_1040-33_1042-33",
+    "sign_osm_value": "DE:314,1040-33,1042-33",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1040-33_1042-33.png",
     "area_tags": {
-      "maxstay": "TIME",
-      "authentication:ticket": "yes",
-      "maxstay:conditional": "no @ (residents)",
-      "authentication:ticket:conditional": "no @ (residents)"
+      "maxstay:conditional": "TIME @ (OPENINGHOURS)",
+      "authentication:disc:conditional": "yes @ (OPENINGHOURS)"
     },
     "way_tags": {
-      "parking:SEITE:maxstay": "TIME",
-      "parking:SEITE:authentication:ticket": "yes",
-      "parking:SEITE:maxstay:conditional": "no @ (residents)",
-      "parking:SEITE:authentication:ticket:conditional": "no @ (residents)"
+      "parking:SEITE:fee": "no",
+      "parking:SEITE:maxstay:conditional": "TIME @ (OPENINGHOURS)",
+      "parking:SEITE:authentication:disc:conditional": "yes @ (OPENINGHOURS)"
     }
   }
 ]
