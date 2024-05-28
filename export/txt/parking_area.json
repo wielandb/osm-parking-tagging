@@ -4,6 +4,7 @@
   "283_1042-33": "restriction:conditional=no_stopping @ (OPENINGHOURS)LINEBREAK",
   "286": "restriction=no_parkingLINEBREAK",
   "286_1010-51": "restriction:hgv=no_parkingLINEBREAK",
+  "283_1010-51": "restriction:hgv=no_stoppingLINEBREAK",
   "286_1010-51_1042-33": "restriction:hgv:conditional=no_parking @ (OPENINGHOURS)LINEBREAK",
   "286_1010-62": "restriction:motorcycle=no_parkingLINEBREAK",
   "286_1010-62_1042-33": "restriction:motorcycle:conditional=no_parking @ (OPENINGHOURS)LINEBREAK",
@@ -55,10 +56,10 @@
   "314_1050-32_1040-32": "restriction=charging_onlyLINEBREAKmaxstay=TIMELINEBREAKauthentication:disc=yesLINEBREAK",
   "314_1050-32_1040-32_1042-33": "restriction=charging_onlyLINEBREAKmaxstay:conditional=TIME @ (OPENINGHOURS)LINEBREAKauthentication:disc=yesLINEBREAK",
   "314_1053-31": "fee=yesLINEBREAKauthentication:ticket=yesLINEBREAK",
+  "314_1053-31_1010-57_1010-58_1010-62": "fee=yesLINEBREAKvehicle=noLINEBREAKmotorcar=designatedLINEBREAKmotorcycle=designatedLINEBREAKauthentication:ticket=yesLINEBREAKbus=designatedLINEBREAKtourist_bus=designatedLINEBREAK",
   "314_1053-31_1010-58_1010-62": "fee=yesLINEBREAKvehicle=noLINEBREAKmotorcar=designatedLINEBREAKmotorcycle=designatedLINEBREAKauthentication:ticket=yesLINEBREAKbus=designatedLINEBREAKtourist_bus=designatedLINEBREAK",
   "314_1053-31_1020-32": "fee=yesLINEBREAKzone=AUSWEISLINEBREAKauthentication:ticket=yesLINEBREAK",
   "314_1053-31_1020-32_1042-33": "fee=yesLINEBREAKzone:conditional=AUSWEIS @ (OPENINGHOURS)LINEBREAKauthentication:ticket=yesLINEBREAK",
   "314_1053-31_1024-14": "fee=yesLINEBREAKfee:bus=noLINEBREAKfee:tourist_bus=noLINEBREAKauthentication:ticket=yesLINEBREAKauthentication:ticket:bus=noLINEBREAKauthentication:ticket:tourist_bus=noLINEBREAK",
-  "314_1053-31_1042-33": "fee=noLINEBREAKfee:conditional=yes @ (OPENINGHOURS)LINEBREAKauthentication:ticket=noLINEBREAKauthentication:ticket:conditional=yes @ (OPENINGHOURS)LINEBREAK",
-  "314_1053-31_1010-57_1010-58_1010-62": "fee=yesLINEBREAKvehicle=noLINEBREAKmotorcar=designatedLINEBREAKmotorcycle=designatedLINEBREAKauthentication:ticket=yesLINEBREAKbus=designatedLINEBREAKtourist_bus=designatedLINEBREAK"
+  "314_1053-31_1042-33": "fee=noLINEBREAKfee:conditional=yes @ (OPENINGHOURS)LINEBREAKauthentication:ticket=noLINEBREAKauthentication:ticket:conditional=yes @ (OPENINGHOURS)LINEBREAK"
 }

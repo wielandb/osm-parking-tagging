@@ -1,6 +1,7 @@
 |                                                              | Tags für eine Fläche                                         | Tags für einen Way                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![283](img/283.png)                                          | `restriction=no_stopping`                                    | `parking:SEITE:restriction=no_stopping`                      |
+| ![283_1010-51](img/283_1010-51.png)                          | `restriction:hgv=no_stopping`                                | `parking:SEITE:restriction:hgv=no_stopping`                  |
 | ![283_1024-20](img/283_1024-20.png)                          | `restriction=no_stopping`<br />`restriction:vehicle:electric=none` | `parking:SEITE:restriction=no_stopping`<br />`parking:SEITE:restriction:vehicle:electric=none` |
 | ![283_1042-33](img/283_1042-33.png)                          | `restriction:conditional=no_stopping @ (OPENINGHOURS)`       | `parking:SEITE:restriction:conditional=no_stopping @ (OPENINGHOURS)` |
 | ![286](img/286.png)                                          | `restriction=no_parking`                                     | `parking:SEITE:restriction=no_parking`                       |
