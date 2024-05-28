@@ -444,6 +444,27 @@
   {
     "sign_identifier": "314_1010-58_1040-33_1042-33",
     "sign_osm_value": "DE:314,1010-58,1040-33,1042-33",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-58_1040-32_1042-33.png",
+    "area_tags": {
+      "motorcar": "designated",
+      "authentication:disc": "no",
+      "maxstay": "no",
+      "maxstay:conditional": "TIME @ (OPENINGHOURS)",
+      "authentication:disc:conditional": "yes @ (OPENINGHOURS)",
+      "vehicle": "no"
+    },
+    "way_tags": {
+      "parking:SEITE:motorcar": "designated",
+      "parking:SEITE:authentication:disc": "no",
+      "parking:SEITE:maxstay": "no",
+      "parking:SEITE:maxstay:conditional": "TIME @ (OPENINGHOURS)",
+      "parking:SEITE:authentication:disc:conditional": "yes @ (OPENINGHOURS)",
+      "parking:SEITE:vehicle": "no"
+    }
+  },
+  {
+    "sign_identifier": "314_1010-58_1040-33_1042-33",
+    "sign_osm_value": "DE:314,1010-58,1040-33,1042-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-58_1040-33_1042-33.png",
     "area_tags": {
       "motorcar": "designated",
@@ -880,24 +901,49 @@
     }
   },
   {
-    "sign_identifier": "314_1010-58_1040-33_1042-33",
-    "sign_osm_value": "DE:314,1010-58,1040-33,1042-33",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-58_1040-32_1042-33.png",
+    "sign_identifier": "314_1053-31_1010-58_1010-62",
+    "sign_osm_value": "DE:314,1053-31,1010-58,1010-62",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1053-31_1010-58_1010-62_1010-57.png",
     "area_tags": {
+      "fee": "yes",
+      "vehicle": "no",
       "motorcar": "designated",
-      "authentication:disc": "no",
-      "maxstay": "no",
-      "maxstay:conditional": "TIME @ (OPENINGHOURS)",
-      "authentication:disc:conditional": "yes @ (OPENINGHOURS)",
-      "vehicle": "no"
+      "motorcycle": "designated",
+      "authentication:ticket": "yes",
+      "bus": "designated",
+      "tourist_bus": "designated"
     },
     "way_tags": {
+      "parking:SEITE:fee": "yes",
+      "parking:SEITE:vehicle": "no",
       "parking:SEITE:motorcar": "designated",
-      "parking:SEITE:authentication:disc": "no",
-      "parking:SEITE:maxstay": "no",
-      "parking:SEITE:maxstay:conditional": "TIME @ (OPENINGHOURS)",
-      "parking:SEITE:authentication:disc:conditional": "yes @ (OPENINGHOURS)",
-      "parking:SEITE:vehicle": "no"
+      "parking:SEITE:motorcycle": "designated",
+      "parking:SEITE:authentication:ticket": "yes",
+      "parking:SEITE:bus": "designated",
+      "parking:SEITE:tourist_bus": "designated"
+    }
+  },
+  {
+    "sign_identifier": "314_1053-31_1010-57_1010-58_1010-62",
+    "sign_osm_value": "DE:314,1053-31,1010-57,1010-58,1010-62",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1053-31_1010-57_1010-58_1010-62.png",
+    "area_tags": {
+      "fee": "yes",
+      "vehicle": "no",
+      "motorcar": "designated",
+      "motorcycle": "designated",
+      "authentication:ticket": "yes",
+      "bus": "designated",
+      "tourist_bus": "designated"
+    },
+    "way_tags": {
+      "parking:SEITE:fee": "yes",
+      "parking:SEITE:vehicle": "no",
+      "parking:SEITE:motorcar": "designated",
+      "parking:SEITE:motorcycle": "designated",
+      "parking:SEITE:authentication:ticket": "yes",
+      "parking:SEITE:bus": "designated",
+      "parking:SEITE:tourist_bus": "designated"
     }
   }
 ]
