@@ -435,6 +435,24 @@
     }
   },
   {
+    "sign_identifier": "314_1040-32_1010-58",
+    "sign_osm_value": "DE:314,1040-32,1010-58",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\314_1040-32_1010-58.png",
+    "area_tags": {
+      "vehicle": "no",
+      "motorcar": "designated",
+      "maxstay": "TIME",
+      "authentication:disc": "yes"
+    },
+    "way_tags": {
+      "parking:SEITE:vehicle": "no",
+      "parking:SEITE:motorcar": "designated",
+      "parking:SEITE:fee": "no",
+      "parking:SEITE:maxstay": "TIME",
+      "parking:SEITE:authentication:disc": "yes"
+    }
+  },
+  {
     "sign_identifier": "314_1010-58_1040-33",
     "sign_osm_value": "DE:314,1010-58,1040-33",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-58_1040-33.png",
@@ -509,6 +527,23 @@
       "parking:SEITE:motorcar:conditional": "designated @ (OPENINGHOURS)",
       "parking:SEITE:vehicle": "designated",
       "parking:SEITE:vehicle:conditional": "no @ (OPENINGHOURS)"
+    }
+  },
+  {
+    "sign_identifier": "314_1010-58_1053-31",
+    "sign_osm_value": "DE:314,1010-58,1053-31",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-58_1053-31.png",
+    "area_tags": {
+      "fee": "yes",
+      "vehicle": "no",
+      "motorcar": "designated",
+      "authentication:ticket": "yes"
+    },
+    "way_tags": {
+      "parking:SEITE:fee": "yes",
+      "parking:SEITE:vehicle": "no",
+      "parking:SEITE:motorcar": "designated",
+      "parking:SEITE:authentication:ticket": "yes"
     }
   },
   {
@@ -972,23 +1007,6 @@
       "parking:SEITE:fee:conditional": "yes @ (OPENINGHOURS)",
       "parking:SEITE:authentication:ticket": "no",
       "parking:SEITE:authentication:ticket:conditional": "yes @ (OPENINGHOURS)"
-    }
-  },
-  {
-    "sign_identifier": "314_1010-58_1053-31",
-    "sign_osm_value": "DE:314,1010-58,1053-31",
-    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img\\314_1010-58_1053-31.png",
-    "area_tags": {
-      "fee": "yes",
-      "vehicle": "no",
-      "motorcar": "designated",
-      "authentication:ticket": "yes"
-    },
-    "way_tags": {
-      "parking:SEITE:fee": "yes",
-      "parking:SEITE:vehicle": "no",
-      "parking:SEITE:motorcar": "designated",
-      "parking:SEITE:authentication:ticket": "yes"
     }
   }
 ]
