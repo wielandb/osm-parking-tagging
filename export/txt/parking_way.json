@@ -1,6 +1,6 @@
 {
   "283": "parking:SEITE:restriction=no_stoppingLINEBREAK",
-  "283_1010-51": "parking:SEITE:restriction:hgv=no_stoppingLINEBREAK",
+  "283_1010-51": "parking:SEITE:restriction:motorcar=no_stoppingLINEBREAK",
   "283_1024-20": "parking:SEITE:restriction=no_stoppingLINEBREAKparking:SEITE:restriction:vehicle:electric=noneLINEBREAK",
   "283_1042-33": "parking:SEITE:restriction:conditional=no_stopping @ (OPENINGHOURS)LINEBREAK",
   "286": "parking:SEITE:restriction=no_parkingLINEBREAK",
@@ -32,7 +32,6 @@
   "314_1010-58_1010-62": "parking:SEITE:vehicle=noLINEBREAKparking:SEITE:motorcar=designatedLINEBREAKparking:SEITE:motorcycle=designatedLINEBREAK",
   "314_1010-58_1010-62_1053-31": "parking:SEITE:fee=yesLINEBREAKparking:SEITE:vehicle=noLINEBREAKparking:SEITE:motorcar=designatedLINEBREAKparking:SEITE:motorcycle=designatedLINEBREAKparking:SEITE:authentication:ticket=yesLINEBREAK",
   "314_1010-58_1040-32": "parking:SEITE:vehicle=noLINEBREAKparking:SEITE:motorcar=designatedLINEBREAKparking:SEITE:fee=noLINEBREAKparking:SEITE:maxstay=TIMELINEBREAKparking:SEITE:authentication:disc=yesLINEBREAK",
-  "314_1040-32_1010-58": "parking:SEITE:vehicle=noLINEBREAKparking:SEITE:motorcar=designatedLINEBREAKparking:SEITE:fee=noLINEBREAKparking:SEITE:maxstay=TIMELINEBREAKparking:SEITE:authentication:disc=yesLINEBREAK",
   "314_1010-58_1040-33": "parking:SEITE:vehicle=noLINEBREAKparking:SEITE:motorcar=designatedLINEBREAKparking:SEITE:fee=noLINEBREAKparking:SEITE:maxstay=TIMELINEBREAKparking:SEITE:authentication:disc=yesLINEBREAK",
   "314_1010-58_1040-33_1042-33": "parking:SEITE:motorcar=designatedLINEBREAKparking:SEITE:authentication:disc=noLINEBREAKparking:SEITE:maxstay=noLINEBREAKparking:SEITE:maxstay:conditional=TIME @ (OPENINGHOURS)LINEBREAKparking:SEITE:authentication:disc:conditional=yes @ (OPENINGHOURS)LINEBREAKparking:SEITE:vehicle=noLINEBREAK",
   "314_1010-58_1042-33": "parking:SEITE:motorcar=yesLINEBREAKparking:SEITE:motorcar:conditional=designated @ (OPENINGHOURS)LINEBREAKparking:SEITE:vehicle=designatedLINEBREAKparking:SEITE:vehicle:conditional=no @ (OPENINGHOURS)LINEBREAK",
@@ -43,6 +42,7 @@
   "314_1010-66_1040-32": "parking:SEITE:access=yesLINEBREAKparking:SEITE:access:conditional=private @ (TIME)LINEBREAKparking:SEITE:zone=AUSWEISLINEBREAK",
   "314_1010-67_1053-31": "parking:SEITE:fee=yesLINEBREAKparking:SEITE:vehicle=noLINEBREAKparking:SEITE:motorhome=designatedLINEBREAKparking:SEITE:authentication:ticket=yesLINEBREAK",
   "314_1040-32": "parking:SEITE:fee=noLINEBREAKparking:SEITE:maxstay=TIMELINEBREAKparking:SEITE:authentication:disc=yesLINEBREAK",
+  "314_1040-32_1010-58": "parking:SEITE:vehicle=noLINEBREAKparking:SEITE:motorcar=designatedLINEBREAKparking:SEITE:fee=noLINEBREAKparking:SEITE:maxstay=TIMELINEBREAKparking:SEITE:authentication:disc=yesLINEBREAK",
   "314_1040-32_1020-32": "parking:SEITE:maxstay=TIMELINEBREAKparking:SEITE:maxstay:conditional=no @ residentsLINEBREAKparking:SEITE:authentication:disc=yesLINEBREAKparking:SEITE:zone=AUSWEISLINEBREAK",
   "314_1040-32_1042-33": "parking:SEITE:fee=noLINEBREAKparking:SEITE:maxstay:conditional=TIME @ (OPENINGHOURS)LINEBREAKparking:SEITE:authentication:disc:conditional=yes @ (OPENINGHOURS)LINEBREAK",
   "314_1040-32_1042-33_1020-32": "parking:SEITE:maxstay:conditional=TIME @ (OPENINGHOURS); no @ residentsLINEBREAKparking:SEITE:authentication:disc:conditional=yes @ (OPENINGHOURS)LINEBREAKparking:SEITE:zone=AUSWEISLINEBREAK",
