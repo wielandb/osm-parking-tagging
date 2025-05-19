@@ -540,6 +540,23 @@
     }
   },
   {
+    "sign_identifier": "314_1010-58_1053-31",
+    "sign_osm_value": "DE:314,1010-58,1053-31",
+    "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1053-31_1010-58.png",
+    "area_tags": {
+      "fee": "yes",
+      "vehicle": "no",
+      "motorcar": "designated",
+      "authentication:ticket": "yes"
+    },
+    "way_tags": {
+      "parking:SEITE:fee": "yes",
+      "parking:SEITE:vehicle": "no",
+      "parking:SEITE:motorcar": "designated",
+      "parking:SEITE:authentication:ticket": "yes"
+    }
+  },
+  {
     "sign_identifier": "314_1010-59",
     "sign_osm_value": "DE:314,1010-59",
     "img_url": "https://raw.githubusercontent.com/wielandb/osm-parking-tagging/main/img/314_1010-59.png",
